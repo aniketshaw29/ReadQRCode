@@ -9,8 +9,9 @@ for barcode in decode(img):
     text=barcode.data.decode('utf-8')
     print(text)
     print(barcode.rect)
-    
-    
+
 #pip install numpy
 #pip install pyzbar
 #pip install opencv-python    
+    
+   
